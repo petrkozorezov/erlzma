@@ -1,0 +1,14 @@
+[package]
+name = "erlzma"
+version = "0.1.0"
+
+[lib]
+name = "erlzma"
+# path = "src/hello.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+bincode = "1.2.1"
+rustler = "0.22.0-rc.0"
+rust-lzma = "0.5"
+#serde = { version = "1.0", features = ["derive"] }

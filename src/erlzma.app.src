@@ -1,0 +1,9 @@
+{application, erlzma, [
+  {description, "Erlang LZMA comression"},
+  {vsn, git},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
